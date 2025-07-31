@@ -1,0 +1,6 @@
+.container {
+    display:flex;
+    height:500px;
+    background-color: lightpink;
+    align-items:center; }
+    hero-section left {text-align: center;}
