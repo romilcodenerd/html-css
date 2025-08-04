@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iframe tag</title>
+    <style>
+/* Viewport units: vw= viewport width, vh= viewport height */
+.container {
+    width: 95vw;
+    height: 90vh;
+    border: 2px solid grey;
+}
+    </style>
+</head>
+<body>
+
+<!-- Google map embed -->
+ <!-- % works on parent child relationship-->
+  <div class="container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.3361787086847!2d71.23031277486689!3d21.611819980187406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39588125b9a61759%3A0xe03ac1cc169ac4ea!2sReliance%20Digital!5e0!3m2!1sen!2sin!4v1750437259739!5m2!1sen!2sin"
+     width="800" 
+     height="600" 
+     style="border:0;" 
+     allowfullscreen="" 
+     loading="lazy" 
+     referrerpolicy="no-referrer-when-downgrade">
+   </iframe>
+  </div>
+  <br> <br>
+
+  <!-- Youtube video embed -->
+   <div> 
+    <iframe
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/NjttXWgT8Lo?si=8KqhZIcfJauq4er7" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
+</div>
+</body>
+</html>

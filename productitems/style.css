@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    border: 2px solid rgb(46, 0, 213);
+    display: flex;
+    flex-wrap:wrap;
+    row-gap: 50px;
+    column-gap: 50px;
+    justify-content: center; 
+    padding: 50px 0px;
+}
+
+.box {
+    width:100px;
+    height:100px;
+    border: 2px solid lightpink;
+    justify-content: center; 
+    /*align-items: center; */
+}

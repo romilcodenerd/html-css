@@ -1,0 +1,14 @@
+{
+    "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+    "github.copilot.chat.agent.runTasks": false,
+    "github.copilot.chat.agent.autoFix": false,
+    "github.copilot.nextEditSuggestions.fixes": false,
+    "github.copilot.renameSuggestions.triggerAutomatically": false,
+    "github.copilot.chat.edits.suggestRelatedFilesForTests": false,
+    "github.copilot.chat.summarizeAgentConversationHistory.enabled": false,
+    "editor.fontSize": 20,
+    "files.autoSave": "afterDelay",
+    "editor.defaultFormatter": "formulahendry.auto-rename-tag",
+    "editor.wordWrap": "wordWrapColumn",
+    "workbench.colorTheme": "Dracula Theme"
+}
